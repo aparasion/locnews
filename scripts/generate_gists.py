@@ -5,11 +5,21 @@ client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 # === CONFIGURE YOUR SPECIFIC AREA HERE ===
 FEEDS = [
-    "https://news.google.com/rss/search?q=your+keywords+OR+topic+when:1d",  # Google News RSS
-    "https://rss.nytimes.com/services/xml/rss/nyt/YourSection.xml",
-    # add 10–20 relevant RSS feeds
+    "https://news.google.com/rss/search?q=translation+OR+localization+OR+interpreter+when:1d",
+    "https://news.google.com/rss/search?q=machine+translation+OR+AI+translation+when:1d",
+    "https://news.google.com/rss/search?q=language+services+OR+translation+industry+when:1d",
+    "https://slator.com/feed/",                          # leading translation industry news site
+    "https://www.languagemagazine.com/feed/",            # language & translation magazine
+    "https://multilingual.com/feed/",                    # translation & localization industry
+    "https://www.tcworld.info/rss.xml",                  # technical communication & translation
+    "https://www.atanet.org/feed/",                      # American Translators Association
+    "https://blog.sdl.com/feed/",                        # SDL/RWS translation tech blog
+    "https://www.nimdzi.com/feed/",                      # language industry research & insights
+    "https://lyndentraductions.com/blog/feed/",          # translation industry blog
 ]
+
 SEEN_FILE = "seen.json"
+YOUR_AREA = "Translation"  # change to whatever label you want
 
 # Load seen URLs
 seen = json.load(open(SEEN_FILE)) if os.path.exists(SEEN_FILE) else []
