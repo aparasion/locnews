@@ -1,4 +1,4 @@
-import feedparser, os, json, datetime, requests, trafilatura
+import feedparser, os, json, datetime, requests, trafilatura, time
 from google import genai  # pip install google-generativeai
 
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
