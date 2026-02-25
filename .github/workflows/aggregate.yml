@@ -12,7 +12,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with: { python-version: '3.12' }
-      - run: pip install feedparser trafilatura google-generativeai
+      - run: pip install feedparser trafilatura google-genai
       - run: python scripts/generate_gists.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
