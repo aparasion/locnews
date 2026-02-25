@@ -29,6 +29,7 @@ for feed_url in FEEDS:
         prompt = f"Create a concise gist (3–5 bullets or 100–200 words) of this article. Focus on key facts, implications. End with source: {url}\n\n{text[:15000]}"
         response = client.models.generate_content(model="gemini-2.5-flash", contents=prompt)
         gist = response.text
+        time.sleep(15)  # 15s gap = max ~4 requests/min, safely under the limit
         
         posts.append({"title": entry.title, "url": url, "gist": gist, "date": entry.published})
         seen.append(url)
