@@ -1,12 +1,14 @@
 import feedparser, os, json, datetime, requests, trafilatura, time
-from openai import OpenAI  # ← new import
+from openai import OpenAI
 
-# Initialize OpenAI client
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 FEEDS = [
-    https://news.google.com/rss/search?q=translation+localization+OR+topic+when:1d",  # Google News RSS
+    "https://www.languagemagazine.com/feed/",
+    "https://multilingual.com/feed/",
+    # add more feeds here as needed
 ]
+
 SEEN_FILE = "seen.json"
 YOUR_AREA = "Translation"
 MAX_ARTICLES = 18
@@ -33,44 +35,57 @@ for feed_url in FEEDS:
 Focus on key facts, implications. End with source: {url}
 
 Article text:
-{text[:15000]}"""  # ← OpenAI likes clearer prompts
+{text[:15000]}"""
 
         try:
             response = client.chat.completions.create(
-                model="gpt-4o-mini",  # cheap & good (~$0.15/1M input tokens); alt: "gpt-3.5-turbo" even cheaper
+                model="gpt-4o-mini",
                 messages=[
                     {"role": "system", "content": "You are a helpful news summarizer."},
                     {"role": "user", "content": prompt}
                 ],
-                max_tokens=300,          # limit output length to save $
-                temperature=0.3          # lower = more factual/consistent
+                max_tokens=300,
+                temperature=0.3
             )
             gist = response.choices[0].message.content.strip()
         except Exception as e:
             print(f"OpenAI API error for {url}: {e}")
             gist = f"Summary failed (API error). Read full article: {url}"
 
-        posts.append({"title": entry.title, "url": url, "gist": gist, "date": entry.published})
+        # Prepare data for this individual post
+        post_date = entry.get("published_parsed") or datetime.datetime.now()
+        post_date_str = datetime.datetime(*post_date[:6]).strftime("%Y-%m-%d")  # fallback to today if missing
+        slug = entry.title.lower().replace(" ", "-").replace("[^a-z0-9-]", "")[:50]  # simple slug
+        filename = f"_posts/{post_date_str}-{slug}.md"
+
+        # Front matter + content for this single post
+        md_content = f"""---
+title: "{entry.title.replace('"', '\\"')}"
+date: {post_date_str}T{datetime.datetime.now().strftime("%H:%M:%S")}Z  # approximate time
+layout: post
+categories: [{YOUR_AREA.lower()}]
+tags: [translation, news, gist]
+source: {url}
+---
+
+{prompt.split("Article text:")[0].strip()}  <!-- optional: show the instruction as intro -->
+
+{gist}
+"""
+
+        # Write individual file
+        os.makedirs("_posts", exist_ok=True)
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(md_content)
+
+        posts.append({"title": entry.title, "url": url, "gist": gist, "date": post_date_str})  # still collect for logging if needed
         seen.append(url)
         count += 1
 
-        time.sleep(2)  # small delay; OpenAI allows bursts, but polite to add
+        time.sleep(2)  # polite delay
 
-# Generate Jekyll post (unchanged)
-today = datetime.date.today().isoformat()
-md_content = f"""---
-title: "{YOUR_AREA} News Gists - {today}"
-date: {today}
-layout: post
----
+# Optional: log how many new posts were created
+print(f"Generated {len(posts)} individual gist posts")
 
-## Today's AI-curated gists
-
-"""
-for p in posts:
-    md_content += f"### [{p['title']}]({p['url']})\n\n{p['gist']}\n\n---\n\n"
-
-with open(f"_posts/{today}-news-gist.md", "w") as f:
-    f.write(md_content)
-
-json.dump(seen[-500:], open(SEEN_FILE, "w"))
+# Update seen file (keep last 500)
+json.dump(seen[-500:], open(SEEN_FILE, "w"), indent=2)
