@@ -1,3 +1,7 @@
+layout: home
+list_title: ""          # empty = no heading
+show_posts: false       # ← Minima doesn't have this natively, but see next options
+
 title: Translation and localization industry news
 description: Translation and localization news aggregated daily. Stay tunned for what's happening in the industry.
 theme: minima
