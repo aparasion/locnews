@@ -4,8 +4,7 @@ from openai import OpenAI
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 FEEDS = [
-    "https://www.languagemagazine.com/feed/",
-    "https://multilingual.com/feed/",
+    "https://news.google.com/rss/search?q=translation+localization+OR+topic+when:1d",  # Google News RSS
     # add more feeds here as needed
 ]
 
