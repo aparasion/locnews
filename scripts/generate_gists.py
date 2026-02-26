@@ -9,7 +9,7 @@ FEEDS = [
 
 SEEN_FILE = "seen.json"
 YOUR_AREA = "Translation"
-MAX_ARTICLES = 18  # ← defined here before the loop
+MAX_ARTICLES = 5  # ← defined here before the loop
 
 seen = json.load(open(SEEN_FILE)) if os.path.exists(SEEN_FILE) else []
 posts = []
