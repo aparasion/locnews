@@ -12,10 +12,10 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with: { python-version: '3.12' }
-      - run: pip install feedparser trafilatura google-genai
+      - run: pip install feedparser trafilatura openai
       - run: python scripts/generate_gists.py
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       - name: Commit & push
         run: |
           git config user.name "GitHub Actions"
