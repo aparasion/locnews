@@ -1,7 +1,7 @@
 ---
 title: "Launguage Services Market Competitive Landscape Report 2025: Top Companies Analysis, Profiles, Strategic Developments, Mergers, Sustainability Goals, Product Innovations and Launches, Revenues - Yahoo Finance UK"
 date: 2026-02-24T12:18:00Z
-layout: 
+layout: post
 categories: [translation]
 tags: [translation, localization, news, gist]
 excerpt: "The \"Language Services Market Competitive Landscape Report 2025\" provides an in-depth analysis of key players in the language services sector, highlighting thei..."

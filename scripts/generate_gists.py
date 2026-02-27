@@ -25,6 +25,11 @@ YOUR_AREA = "Translation"
 MAX_ARTICLES = 18
 
 
+def yaml_escape(text: str) -> str:
+    """Escape content for safe inclusion in quoted YAML scalar values."""
+    return text.replace("\\", "\\\\").replace('"', '\\"').replace("\n", " ").strip()
+
+
 def get_publisher_domain(url: str) -> str:
     """Extract clean domain name from URL (e.g. 'distractify.com')"""
     try:
@@ -104,15 +109,18 @@ Article text:
         # ────────────────────────────────────────────────
         # Markdown content — one post per article
         # ────────────────────────────────────────────────
+        safe_title = yaml_escape(entry.title)
+        safe_excerpt = yaml_escape(gist[:160])
+
         md_content = f"""---
-title: "{entry.title.replace('"', '\\"')}"
+title: "{safe_title}"
 date: {post_date_str}T{time_str}Z
-layout: 
+layout: post
 categories: [{YOUR_AREA.lower()}]
 tags: [translation, localization, news, gist]
-excerpt: "{gist[:160].replace('"', '\\"')}..."
+excerpt: "{safe_excerpt}..."
 publisher: {publisher}
-source_url: {source_url}
+source_url: "{source_url}"
 ---
 
 {gist}
@@ -140,4 +148,5 @@ source_url: {source_url}
 
 # ────────────────────────────────────────────────
 print(f"Generated {len(posts)} individual gist posts")
-json.dump(seen[-500:], open(SEEN_FILE, "w"), indent=2)
+with open(SEEN_FILE, "w", encoding="utf-8") as seen_file:
+    json.dump(seen[-500:], seen_file, indent=2)

@@ -1,7 +1,7 @@
 ---
 title: "Languages of Argentina"
 date: 2025-12-12T06:00:27Z
-layout: 
+layout: post
 categories: [translation]
 tags: [translation, localization, news, gist]
 excerpt: "Argentina, with approximately 46 million Spanish speakers, ranks fourth globally in Spanish-speaking populations, following Mexico, which has over 120 million. ..."

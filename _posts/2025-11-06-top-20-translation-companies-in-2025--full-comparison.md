@@ -1,7 +1,7 @@
 ---
 title: "Top 20 Translation Companies in 2025 – Full Comparison"
 date: 2025-11-06T16:07:52Z
-layout: 
+layout: post
 categories: [translation]
 tags: [translation, localization, news, gist]
 excerpt: "Choosing the right translation company is crucial for businesses aiming to expand globally. A recent ranking of the top translation agencies highlights the impo..."

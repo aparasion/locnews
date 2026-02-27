@@ -1,7 +1,7 @@
 ---
 title: "Languages of Pakistan"
 date: 2025-12-05T05:03:15Z
-layout: 
+layout: post
 categories: [translation]
 tags: [translation, localization, news, gist]
 excerpt: "Pakistan, the fifth most populous country with 240 million people, has a rich linguistic landscape featuring over 70 languages. The official languages are Urdu ..."

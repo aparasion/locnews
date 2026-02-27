@@ -1,7 +1,7 @@
 ---
 title: "Smartcat Showcases AI Localization Efficiency in Enterprise Sales Enablement - TipRanks"
 date: 2026-02-26T00:14:37Z
-layout: 
+layout: post
 categories: [translation]
 tags: [translation, localization, news, gist]
 excerpt: "Smartcat has unveiled its latest advancements in AI-driven localization, aimed at enhancing enterprise sales enablement. The company showcased how its technolog..."

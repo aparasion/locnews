@@ -1,7 +1,7 @@
 ---
 title: "Making Cyber Security Effective with Translation and Localization"
 date: 2025-11-25T05:05:58Z
-layout: 
+layout: post
 categories: [translation]
 tags: [translation, localization, news, gist]
 excerpt: "The rise of remote work and global business expansion has heightened concerns about cyber security, particularly in multilingual environments. Effective communi..."

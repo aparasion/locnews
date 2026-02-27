@@ -1,7 +1,7 @@
 ---
 title: "PRWireNOW: China Newswire Service with Translation, Proofreading & 24H Reporting - Digital Journal"
 date: 2026-02-27T03:11:05Z
-layout: 
+layout: post
 categories: [translation]
 tags: [translation, localization, news, gist]
 excerpt: "The article discusses the launch of PRWireNOW, a new newswire service in China that offers translation, proofreading, and 24-hour reporting. This service aims t..."

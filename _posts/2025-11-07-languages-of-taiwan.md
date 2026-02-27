@@ -1,7 +1,7 @@
 ---
 title: "Languages of Taiwan"
 date: 2025-11-07T06:00:20Z
-layout: 
+layout: post
 categories: [translation]
 tags: [translation, localization, news, gist]
 excerpt: "Taiwan, home to 23.5 million people, showcases a rich linguistic diversity, with Mandarin Chinese as the official language since 1945. While Mandarin is widely ..."

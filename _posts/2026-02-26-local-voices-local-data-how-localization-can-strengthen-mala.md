@@ -1,7 +1,7 @@
 ---
 title: "Local voices, local data: how localization can strengthen malaria elimination across Africa - World Health Organization (WHO)"
 date: 2026-02-26T13:36:00Z
-layout: 
+layout: post
 categories: [translation]
 tags: [translation, localization, news, gist]
 excerpt: "The World Health Organization (WHO) emphasizes the importance of localization in malaria elimination efforts across Africa. The article highlights that integrat..."

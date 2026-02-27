@@ -1,7 +1,7 @@
 ---
 title: "SVG New Sponsor Spotlight: CAMB.AI’s Akshat Prakash on AI Translation and the Future of Live Sports Localization - Sports Video Group"
 date: 2026-02-26T19:26:21Z
-layout: 
+layout: post
 categories: [translation]
 tags: [translation, localization, news, gist]
 excerpt: "In a recent interview, Akshat Prakash, co-founder of CAMB.AI, discussed the transformative potential of AI in sports localization. CAMB.AI specializes in real-t..."

@@ -1,7 +1,7 @@
 ---
 title: "Day Interpreting vs LanguageLine Solutions vs Propio: Top Interpreting Companies Compared"
 date: 2025-11-26T14:24:33Z
-layout: 
+layout: post
 categories: [translation]
 tags: [translation, localization, news, gist]
 excerpt: "In 2025, selecting the right interpreting company is crucial for organizations requiring effective multilingual communication. The top three companies ranked ar..."

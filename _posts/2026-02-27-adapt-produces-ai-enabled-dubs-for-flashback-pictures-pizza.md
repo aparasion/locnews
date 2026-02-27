@@ -1,7 +1,7 @@
 ---
 title: "Adapt Produces AI-Enabled Dubs for Flashback Pictures’ Pizza Guys vs Vampires"
 date: 2026-02-27T03:00:01Z
-layout: 
+layout: post
 categories: [translation]
 tags: [translation, localization, news, gist]
 excerpt: "Adapt, a localization company, has partnered with human linguists to provide AI-enhanced multilingual dubbing for Flashback Pictures' microdrama, \"Pizza Guys vs..."
