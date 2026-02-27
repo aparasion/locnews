@@ -1,12 +1,21 @@
 .site-header .wrapper {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 0.75rem;
+}
+
+.site-header-main {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 0;
 }
 
 .site-logo-link {
   display: inline-flex;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .site-logo {
@@ -23,4 +32,8 @@
   font-weight: 400;
   line-height: 1.5;
   text-decoration: none;
+}
+
+.site-nav {
+  margin-left: auto;
 }
