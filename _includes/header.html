@@ -6,9 +6,9 @@
     </a><br />
 
     {%- if page.url == "/" -%}
-      <h3 class="site-title">{{ site.title | escape }}</h3>
+      <h3 class="site-title page-link">{{ site.title | escape }}</h3>
     {%- else -%}
-      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      <a class="site-title page-link" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     {%- endif -%}
 
     <nav class="site-nav">
