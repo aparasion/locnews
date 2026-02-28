@@ -1,14 +1,14 @@
 ---
-title: "Bluente CEO Daphne Tay on Solving the Last-Mile Problem in AI Document Translation"
+title: "Bluente CEO Daphne Tay on Solving the Last-Mile Problem in AI Document Translation - Slator"
 date: 2026-02-27T08:55:21Z
 layout: post
 categories: [translation]
 tags: [translation, localization, news, gist]
-excerpt: "Daphne Tay, Founder and CEO of Bluente, discusses the development of an AI-powered document translation platform on SlatorPod. The platform addresses complex fo..."
-publisher: slator.com
-source_url: "https://slator.com/bluente-ai-document-translation/"
+excerpt: "Daphne Tay, CEO of Bluente, discusses the challenges and solutions related to the last-mile problem in AI document translation. This issue arises when AI system..."
+publisher: news.google.com
+source_url: "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYTmRwZGcxRV9Nb2dOcWhoNll0T0JSM3VGQnB6bkNiMVZCSXJESVROa3pSN2FueUU4UFVUZDlya1dvVjQydGR0ZlNmT0R3UTRfaUJhTGNTYTRGUFdNMjA2Rg?oc=5"
 ---
 
-Daphne Tay, Founder and CEO of Bluente, discusses the development of an AI-powered document translation platform on SlatorPod. The platform addresses complex formatting challenges across various file types, such as scanned PDFs and multi-column layouts, which are crucial for industries like legal and financial services. Tay highlights the increasing reliance on AI and large language models to enhance translation quality, particularly among legal professionals seeking to streamline non-billable tasks. Despite advancements, she emphasizes the continued necessity of human reviewers for critical documents requiring certification. Bluente has secured funding to expand its international presence and enhance brand visibility, while also planning to introduce a feature for temporary translation memory, allowing selective retranslation of recently edited sections. This innovation aims to improve efficiency in document translation processes.
+Daphne Tay, CEO of Bluente, discusses the challenges and solutions related to the last-mile problem in AI document translation. This issue arises when AI systems struggle to accurately translate context and nuance in complex documents, often leading to miscommunication. Tay emphasizes the importance of combining AI technology with human expertise to enhance translation quality. Bluente aims to bridge this gap by integrating advanced AI tools with professional linguists to ensure precise translations that maintain the original intent and tone. The implications of this approach could significantly improve global communication and accessibility, particularly in industries reliant on accurate documentation, such as legal and medical fields. By addressing the last-mile problem, Bluente positions itself as a leader in the evolving landscape of AI-driven translation services.
 
-[→ Read full article via slator.com](https://slator.com/bluente-ai-document-translation/)
+[→ Read full article via news.google.com](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYTmRwZGcxRV9Nb2dOcWhoNll0T0JSM3VGQnB6bkNiMVZCSXJESVROa3pSN2FueUU4UFVUZDlya1dvVjQydGR0ZlNmT0R3UTRfaUJhTGNTYTRGUFdNMjA2Rg?oc=5)
