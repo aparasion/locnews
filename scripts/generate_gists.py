@@ -16,6 +16,8 @@ FEEDS = [
     "https://techcrunch.com/tag/ai-translation/feed/",
     "https://techcrunch.com/tag/machine-translation/feed/",
     "https://techcrunch.com/tag/localization/feed/",
+    "https://techcrunch.com/tag/translate/feed/",
+    "https://techcrunch.com/tag/translations/feed/",
 ]
 
 SEEN_FILE = "seen.json"
