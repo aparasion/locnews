@@ -36,3 +36,36 @@
 .site-nav {
   margin-left: auto;
 }
+
+.content-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(220px, 1fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+.content-layout-main {
+  min-width: 0;
+}
+
+.content-layout-sidebar {
+  min-width: 0;
+}
+
+.sidebar-slot {
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  background: #fafafa;
+  padding: 1rem;
+}
+
+.sidebar-slot h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 700px) {
+  .content-layout {
+    grid-template-columns: 1fr;
+  }
+}

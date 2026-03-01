@@ -2,48 +2,56 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-        <li>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {%- if site.minima.show_excerpts -%}
-            {{ post.excerpt | strip_html | truncate: 160 }}
-          {%- endif -%}
-        </li>
-      {%- endfor -%}
-    </ul>
-
-    {%- if site.paginate -%}
-      <div class="pagination">
-        {%- if paginator.previous_page -%}
-          <a href="{{ paginator.previous_page_path | relative_url }}" class="previous">
-            Previous
-          </a>
-        {%- endif -%}
-        <span class="page_number ">
-          Page: {{ paginator.page }} of {{ paginator.total_pages }}
-        </span>
-        {%- if paginator.next_page -%}
-          <a href="{{ paginator.next_page_path | relative_url }}" class="next">
-            Next
-          </a>
-        {%- endif -%}
-      </div>
+<div class="content-layout">
+  <main class="content-layout-main home">
+    {%- if page.title -%}
+      <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%}
-  {%- endif -%}
 
+    {{ content }}
+
+    {%- if site.posts.size > 0 -%}
+      <ul class="post-list">
+        {%- for post in site.posts -%}
+          <li>
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+            {%- if site.minima.show_excerpts -%}
+              {{ post.excerpt | strip_html | truncate: 160 }}
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      </ul>
+
+      {%- if site.paginate -%}
+        <div class="pagination">
+          {%- if paginator.previous_page -%}
+            <a href="{{ paginator.previous_page_path | relative_url }}" class="previous">
+              Previous
+            </a>
+          {%- endif -%}
+          <span class="page_number ">
+            Page: {{ paginator.page }} of {{ paginator.total_pages }}
+          </span>
+          {%- if paginator.next_page -%}
+            <a href="{{ paginator.next_page_path | relative_url }}" class="next">
+              Next
+            </a>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+    {%- endif -%}
+  </main>
+
+  <aside class="content-layout-sidebar" aria-label="Supplementary content">
+    <div class="sidebar-slot">
+      <h2>Sidebar</h2>
+      <p>This right column is reserved for ads or additional information.</p>
+    </div>
+  </aside>
 </div>
