@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="content-layout">
+  <article class="content-layout-main post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
@@ -25,4 +26,12 @@ layout: default
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
-</article>
+  </article>
+
+  <aside class="content-layout-sidebar" aria-label="Supplementary content">
+    <div class="sidebar-slot">
+      <h2>Sidebar</h2>
+      <p>This separate column can be filled with ads or additional information.</p>
+    </div>
+  </aside>
+</div>

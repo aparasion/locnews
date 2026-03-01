@@ -36,3 +36,47 @@
 .site-nav {
   margin-left: auto;
 }
+
+.content-layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.content-layout-main {
+  flex: 0 1 75%;
+  min-width: 0;
+}
+
+.content-layout-sidebar {
+  flex: 0 1 25%;
+  min-width: 220px;
+}
+
+.sidebar-slot {
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  background: #fafafa;
+  padding: 1rem;
+}
+
+.sidebar-slot h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .content-layout {
+    flex-direction: column;
+  }
+
+  .content-layout-main,
+  .content-layout-sidebar {
+    flex-basis: auto;
+    width: 100%;
+  }
+
+  .content-layout-sidebar {
+    min-width: 0;
+  }
+}
