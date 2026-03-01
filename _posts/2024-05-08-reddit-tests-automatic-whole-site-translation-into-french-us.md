@@ -4,11 +4,13 @@ date: 2024-05-08T12:12:00Z
 layout: post
 categories: [translation]
 tags: [translation, localization, news, gist]
-excerpt: "Reddit is focusing on expanding its international audience, particularly among French speakers, as part of its strategy to boost revenue growth following its tr..."
+excerpt: "Reddit is shifting its focus towards international growth, particularly targeting French-speaking users, as confirmed by CEO Steve Huffman during the company's..."
 publisher: techcrunch.com
 source_url: "https://techcrunch.com/2024/05/08/reddit-tests-automatic-whole-site-translation-into-french-using-llm-based-ai/"
 ---
 
-Reddit is focusing on expanding its international audience, particularly among French speakers, as part of its strategy to boost revenue growth following its transition to a publicly-traded company. CEO Steve Huffman announced plans for real-time automatic translations of site content into French, leveraging advancements in AI. This initiative aims to increase the proportion of non-U.S. users, which currently stands at 50%. Additionally, Reddit is reintroducing its virtual currency, Reddit Gold, and is developing new tools for developers to enhance subreddit functionalities, despite recent tensions over API changes. The company reported a 48% year-over-year revenue increase to $243 million and a 37% rise in unique users to 82.7 million. Huffman emphasized the importance of building infrastructure for revenue generation, including plans to license data to other companies while ensuring user privacy. Overall, these moves signal Reddit's commitment to diversifying its business model and enhancing user engagement on a global scale.
+Reddit is shifting its focus towards international growth, particularly targeting French-speaking users, as confirmed by CEO Steve Huffman during the company's first earnings call as a publicly-traded entity. The platform is implementing real-time automatic translations of its content into French, leveraging advancements in large language models, with plans to expand to Spanish next. Currently, half of Reddit's users are based in the U.S., while competitors have a significantly higher international user base, highlighting a potential growth opportunity.
+
+In addition to translation efforts, Reddit is re-engaging developers by introducing new tools and reintroducing Reddit Gold, a virtual currency initiative previously abandoned. This pivot comes after a tumultuous period marked by API disputes with third-party developers. The company also plans to license its data to partners while ensuring user privacy concerns are addressed. With a 48% year-over-year revenue increase to $243 million and a 37% rise in unique users, Reddit is positioning itself for future growth by diversifying its revenue streams and enhancing user engagement.
 
 [→ Read full article via techcrunch.com](https://techcrunch.com/2024/05/08/reddit-tests-automatic-whole-site-translation-into-french-using-llm-based-ai/)

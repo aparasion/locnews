@@ -4,15 +4,13 @@ date: 2024-11-08T12:45:00Z
 layout: post
 categories: [translation]
 tags: [translation, localization, news, gist]
-excerpt: "Panjaya, a startup specializing in generative AI, has launched BodyTalk, a groundbreaking dubbing tool that translates videos into 29 languages while mimicking..."
+excerpt: "Panjaya, a startup specializing in generative AI, has launched BodyTalk, a cutting-edge dubbing tool that translates video content into 29 languages while mimic..."
 publisher: techcrunch.com
 source_url: "https://techcrunch.com/2024/11/08/led-by-a-founder-who-sold-a-video-startup-to-apple-panjaya-uses-deepfake-techniques-to-bite-into-video-dubbing/"
 ---
 
-Panjaya, a startup specializing in generative AI, has launched BodyTalk, a groundbreaking dubbing tool that translates videos into 29 languages while mimicking the original speaker's voice and synchronizing their lip movements. After three years in stealth mode, the company has secured $9.5 million in funding, led by notable figures including CEO Guy Piekarz, who previously sold a startup to Apple.
+Panjaya, a startup specializing in generative AI, has launched BodyTalk, a cutting-edge dubbing tool that translates video content into 29 languages while mimicking the original speaker's voice and adjusting their lip movements. After three years in stealth mode, Panjaya secured $9.5 million in funding, led by notable figures including CEO Guy Piekarz, who previously sold a startup to Apple. The technology aims to enhance video translation for B2B clients, including JFrog and TED, with plans for future API integration and real-time processing capabilities.
 
-BodyTalk aims to enhance B2B video content for clients like JFrog and TED, where dubbed videos have reportedly seen a 115% increase in views and doubled completion rates. The technology, which is currently near real-time, utilizes a combination of third-party AI models and proprietary developments, particularly for lip-syncing. 
-
-Panjaya is positioning itself in the "deep real" category, distancing from the negative connotations of "deepfake," and is focused on preventing misuse of its technology. Despite the prevalence of captions in video consumption, the demand for high-quality dubbed content remains strong, particularly for engaging audiences in their native languages.
+Panjaya's approach emphasizes quality and ethical use, steering clear of the negative connotations associated with "deepfake" technology. The company is focused on creating "guardrails" to prevent misuse and plans to implement watermarking tools to identify synthetic media. Despite competition from established players like Vimeo, Panjaya's innovative dubbing solution addresses a significant demand for high-quality, native-language content, which has shown to improve viewer engagement, as evidenced by TED's reported 115% increase in views for dubbed talks.
 
 [→ Read full article via techcrunch.com](https://techcrunch.com/2024/11/08/led-by-a-founder-who-sold-a-video-startup-to-apple-panjaya-uses-deepfake-techniques-to-bite-into-video-dubbing/)
