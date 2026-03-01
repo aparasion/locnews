@@ -4,13 +4,11 @@ date: 2025-10-09T16:00:00Z
 layout: post
 categories: [translation]
 tags: [translation, localization, news, gist]
-excerpt: "Meta is enhancing its Instagram and Facebook platforms by adding support for Hindi and Portuguese to its AI-powered translation feature, which was initially lau..."
+excerpt: "Meta is enhancing its Instagram and Facebook platforms by introducing AI-powered translation support for Hindi and Portuguese, expanding on its existing feature..."
 publisher: techcrunch.com
 source_url: "https://techcrunch.com/2025/10/09/meta-adds-hindi-and-portuguese-support-for-its-ai-translation-feature-for-reels/"
 ---
 
-Meta is enhancing its Instagram and Facebook platforms by adding support for Hindi and Portuguese to its AI-powered translation feature, which was initially launched with English and Spanish in August. This move aims to connect creators from major markets like India and Brazil with global audiences, facilitating cross-cultural engagement. Users can enable automatic translation for Reels, allowing them to consume content in their preferred language, while creators can activate translation options before publishing their videos.
-
-Additionally, Meta is developing features to translate text and captions in Reels and plans to introduce a voice-dubbing option that preserves the creator's original tone. These enhancements come as Meta seeks to compete with platforms like YouTube, which has been refining its translation capabilities. By breaking down language barriers, Meta hopes to help creators expand their reach and grow their followings on the platform.
+Meta is enhancing its Instagram and Facebook platforms by introducing AI-powered translation support for Hindi and Portuguese, expanding on its existing features for English and Spanish. This initiative aims to facilitate content consumption across linguistic barriers, particularly targeting creators in India and Brazil. Instagram head Adam Mosseri emphasized the potential for creators to reach broader audiences by overcoming language differences. Users can enable automatic translation for Reels, allowing them to enjoy content in their preferred language. Additionally, creators can activate translation options, including automatic dubbing and lip-sync features. Meta is also developing text translation for captions and a new voice-dubbing feature that maintains the original tone of creators. This move positions Meta to compete with YouTube, which has been enhancing its translation capabilities for years. Overall, these updates are designed to foster global engagement and growth for content creators on Meta's platforms.
 
 [→ Read full article via techcrunch.com](https://techcrunch.com/2025/10/09/meta-adds-hindi-and-portuguese-support-for-its-ai-translation-feature-for-reels/)
